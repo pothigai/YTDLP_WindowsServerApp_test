@@ -17,7 +17,7 @@ namespace YTDLP_WindowsServerApp_test
         {
             var youtubeService = new YouTubeService(new BaseClientService.Initializer()
             {
-                ApiKey = "AIzaSyDlsvIcFuIzpy1ZdJK2ZlS2tIc7Bn9G9ks",
+                ApiKey = "API_KEY",
                 ApplicationName = this.GetType().ToString()
             });
 
